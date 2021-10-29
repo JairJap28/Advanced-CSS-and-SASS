@@ -1,0 +1,3 @@
+@function shadow ($percentage) { 
+    @return rgba($color-black, $percentage);
+}
