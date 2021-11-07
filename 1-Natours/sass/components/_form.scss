@@ -60,14 +60,14 @@
     }
 
     &__radio-button {
-        height: 1.5rem;
-        width: 1.5rem;
+        height: 2rem;
+        width: 2rem;
         border: 2px solid $color-primary;
         border-radius: 50%;
         display: inline-block;
         position: absolute;
         left: 0;
-        top: 0;
+        top: -2px;
 
         &::after {
             content: "";
